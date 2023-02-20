@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./navbar.component.css";
 
 const Navbar = () => {
@@ -13,48 +13,48 @@ const Navbar = () => {
     return (
       <>
         <li>
-          <a
+          <Link
             className="rounded text-base font-medium text-slate-900 transition-all duration-200 hover:text-opacity-60 focus:outline-none focus:ring-1 focus:ring-slate-800	 focus:ring-offset-2"
-            href="/#features"
+            to="/#features"
             onClick={navigated}
           >
             Features
-          </a>
+          </Link>
         </li>
         <li>
-          <a
+          <Link
             className="rounded text-base font-medium text-slate-900 transition-all duration-200 hover:text-opacity-60 focus:outline-none focus:ring-1 focus:ring-slate-800 focus:ring-offset-2"
-            href="/#team"
+            to="/#team"
             onClick={navigated}
           >
             Team
-          </a>
+          </Link>
         </li>
         <li>
-          <NavLink
+          <Link
             className="rounded text-base font-medium text-slate-900 transition-all duration-200 hover:text-opacity-60 focus:outline-none focus:ring-1 focus:ring-slate-800 focus:ring-offset-2"
             to="/blog"
             onClick={navigated}
           >
             Blog
-          </NavLink>
+          </Link>
         </li>
         <li>
-          <NavLink
+          <Link
             className="rounded text-base font-medium text-slate-900 transition-all duration-200 hover:text-opacity-60 focus:outline-none focus:ring-1 focus:ring-slate-800 focus:ring-offset-2"
             to="/timeline"
             onClick={navigated}
           >
             Timeline
-          </NavLink>
+          </Link>
         </li>
         <li>
           <a
             className="flex items-center justify-center rounded-xl border border-slate-900 bg-transparent px-5 py-2 text-base font-semibold leading-7 text-slate-900 transition-all duration-200 hover:bg-slate-900 hover:text-white focus:bg-slate-900 focus:text-white focus:outline-none focus:ring-2 focus:ring-slate-800 focus:ring-offset-2 w-full sm:w-auto"
-            href="mailto:mdelgaud@stevens.edu"
+            href="https://app.prismproductivity.com"
             target="_blank"
           >
-            Contact
+            Login
           </a>
         </li>
       </>

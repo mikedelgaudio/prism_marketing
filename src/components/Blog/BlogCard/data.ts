@@ -9,6 +9,53 @@ export interface BlogPost {
 
 export const blogs: BlogPost[] = [
   {
+    date: new Date("02/09/2023"),
+    title: "Advisor Team Meeting",
+    membersInAttendance:
+      "Advisor, All Members (Zain Aamer, Michael DelGaudio, Leticia Gonzalez Marquez, Christopher Kurtz, William Reynolds, Marc Terranova)",
+    topicsOfDiscussion: [
+      "Check in with advisor",
+      "Review website progress",
+      "Discuss progress of testing",
+      "Discuss report and presentation content and structure",
+    ],
+    imgUrl:
+      "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80",
+    imgAlt: "Banner",
+  },
+  {
+    date: new Date("02/02/2023"),
+    title: "Team Meeting",
+    membersInAttendance:
+      "All Members (Zain Aamer, Michael DelGaudio, Leticia Gonzalez Marquez, Christopher Kurtz, William Reynolds, Marc Terranova)",
+    topicsOfDiscussion: [
+      "Review printed cube",
+      "Review website progress",
+      "Review electronics setup",
+      "Solder electronic components",
+      "Discuss Beta prototype revisions",
+      "Devise testing plan",
+    ],
+    imgUrl:
+      "https://images.unsplash.com/photo-1512314889357-e157c22f938d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+    imgAlt: "Banner",
+  },
+  {
+    date: new Date("01/26/2023"),
+    title: "Team Meeting",
+    membersInAttendance:
+      "All Members (Zain Aamer, Michael DelGaudio, Leticia Gonzalez Marquez, Christopher Kurtz, William Reynolds, Marc Terranova)",
+    topicsOfDiscussion: [
+      "Review progress to date",
+      "Lay out plan for next couple weeks",
+      "Assign duties for alpha prototype and testing",
+      "Review website progress",
+    ],
+    imgUrl:
+      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    imgAlt: "Banner",
+  },
+  {
     date: new Date("12/06/2022"),
     title: "Team Meeting",
     membersInAttendance:

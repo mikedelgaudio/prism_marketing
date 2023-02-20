@@ -1,22 +1,24 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   const links = () => {
     return (
       <>
         <li>
-          <a
+          <Link
             className="rounded text-base font-medium text-slate-900 transition-all duration-200 hover:text-opacity-60 focus:outline-none focus:ring-1 focus:ring-slate-800	 focus:ring-offset-2"
-            href="#features"
+            to="/#features"
           >
             Features
-          </a>
+          </Link>
         </li>
         <li>
-          <a
+          <Link
             className="rounded text-base font-medium text-slate-900 transition-all duration-200 hover:text-opacity-60 focus:outline-none focus:ring-1 focus:ring-slate-800 focus:ring-offset-2"
-            href="#team"
+            to="/#team"
           >
             Team
-          </a>
+          </Link>
         </li>
         <li>
           <a
