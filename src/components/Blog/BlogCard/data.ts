@@ -9,6 +9,37 @@ export interface BlogPost {
 
 export const blogs: BlogPost[] = [
   {
+    date: new Date("03/23/2023"),
+    title: "Team Meeting",
+    membersInAttendance:
+      "All Members (Zain Aamer, Michael DelGaudio, Leticia Gonzalez Marquez, Christopher Kurtz, William Reynolds, Marc Terranova)",
+    topicsOfDiscussion: [
+      "Discuss feedback for phase 4",
+      "Review new printed design",
+      "Take photographs of new model",
+      "Outline test procedures and break up work to be done",
+      "Test-fit internals",
+      "Revise internal mounting (battery & board)",
+      "Discuss changes for next print version",
+    ],
+    imgUrl:
+      "https://images.unsplash.com/photo-1674726240969-080afce91514?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+    imgAlt: "Banner",
+  },
+  {
+    date: new Date("02/22/2023"),
+    title: "Team Meeting",
+    membersInAttendance:
+      "All Members (Zain Aamer, Michael DelGaudio, Leticia Gonzalez Marquez, Christopher Kurtz, William Reynolds, Marc Terranova)",
+    topicsOfDiscussion: [
+      "Presentation rehearsal and feedback",
+      "Review report progress",
+    ],
+    imgUrl:
+      "https://images.unsplash.com/photo-1675510183229-c50371163c19?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+    imgAlt: "Banner",
+  },
+  {
     date: new Date("02/09/2023"),
     title: "Advisor Team Meeting",
     membersInAttendance:
