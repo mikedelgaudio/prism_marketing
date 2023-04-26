@@ -9,6 +9,50 @@ export interface BlogPost {
 
 export const blogs: BlogPost[] = [
   {
+    date: new Date("04/25/2023"),
+    title: "Team Meeting",
+    membersInAttendance:
+      "All Members (Zain Aamer, Michael DelGaudio, Leticia Gonzalez Marquez, Christopher Kurtz, William Reynolds, Marc Terranova)",
+    topicsOfDiscussion: [
+      "Demonstration run through",
+      "Testing of all features",
+      "Filming of video",
+      "Discussion of remaining deliverables for Phase 6 and Expo",
+    ],
+    imgUrl:
+      "https://images.unsplash.com/photo-1629757509637-7c99379d6d26?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+    imgAlt: "Banner",
+  },
+  {
+    date: new Date("04/13/2023"),
+    title: "Team Meeting",
+    membersInAttendance:
+      "All Members (Zain Aamer, Michael DelGaudio, Leticia Gonzalez Marquez, Christopher Kurtz, William Reynolds, Marc Terranova)",
+    topicsOfDiscussion: [
+      "Design of Expo poster",
+      "Preparation for Expo",
+      "Deliverable progress for Phase 6",
+    ],
+    imgUrl:
+      "https://images.unsplash.com/photo-1568790309276-16462ea4161d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+    imgAlt: "Banner",
+  },
+  {
+    date: new Date("03/29/2023"),
+    title: "Team Meeting",
+    membersInAttendance:
+      "All Members (Zain Aamer, Michael DelGaudio, Leticia Gonzalez Marquez, Christopher Kurtz, William Reynolds, Marc Terranova)",
+    topicsOfDiscussion: [
+      "Review Phase 5 Presentation",
+      "Practice presentation",
+      "Discuss remaining deliverables",
+      "Assign responsibilities for last phase",
+    ],
+    imgUrl:
+      "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+    imgAlt: "Banner",
+  },
+  {
     date: new Date("03/23/2023"),
     title: "Team Meeting",
     membersInAttendance:
@@ -180,6 +224,9 @@ export const blogs: BlogPost[] = [
       "Assigned responsibilities for upcoming deliverables",
       "Presented current state of website",
     ],
+    imgUrl:
+      "https://images.unsplash.com/photo-1620912189866-474843ba5c14?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80",
+    imgAlt: "Banner",
   },
   {
     date: new Date("10/06/2022"),
@@ -189,6 +236,9 @@ export const blogs: BlogPost[] = [
     topicsOfDiscussion: [
       "Completed, Reviewed, and Rehearsed Phase 1 Presentation",
     ],
+    imgUrl:
+      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+    imgAlt: "Banner",
   },
   {
     date: new Date("10/03/2022"),
